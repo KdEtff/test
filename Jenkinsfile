@@ -8,7 +8,6 @@ pipeline {
                     echo "JAVA_HOME is: ${env.JAVA_HOME}, PATH is: ${env.PATH}"
                     sh '''
                     devkit -version
-                    java -version
                     '''
                 }
             }
